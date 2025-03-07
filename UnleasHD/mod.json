@@ -1,0 +1,67 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Options",
+      "Elements": [
+        {
+		"Name": "IncludeDir2",
+		"DisplayName": "Button Type",
+		"Description": [
+		"Choose a button type.",
+				],
+            "Type": "UIButton",
+		    "MinValue": null,
+		    "MaxValue": null,
+            "DefaultValue": ".\\ButtonType\\Button_Xbox360\\"
+		},
+         {
+          "Name": "IncludeDir1",
+          "DisplayName": "Boost Gauge Text",
+          "Description": [
+            "Choose between Ring Energy or Boost Energy text in Sonic's Boost Gauge.",
+          ],
+          "Type": "BoostType",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\BoostGauge\\ringenergy\\"
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "UIButton": [
+	  {
+        "DisplayName": "PlayStation - UNFINISHED",
+        "Value": ".\\ButtonType\\Button_PS"
+      },
+      {
+        "DisplayName": "PlayStation 3 - UNFINISHED",
+        "Value": ".\\ButtonType\\Button_PS3"
+      },
+	  {
+        "DisplayName": "Xbox - UNFINISHED",
+        "Value": ".\\ButtonType\\Button_Xbox"
+      },
+      {
+        "DisplayName": "Xbox 360 - UNFINISHED",
+        "Value": ".\\ButtonType\\Button_Xbox360"
+      },
+      {
+        "DisplayName": "Nintendo Switch",
+        "Value": ".\\ButtonType\\Button_NX"
+      }
+    ],
+    "BoostType": [
+      {
+        "DisplayName": "Ring Energy",
+        "Value": ".\\BoostGauge\\ringenergy\\",
+      },
+      {
+        "DisplayName": "Boost Energy",
+        "Value": ".\\BoostGauge\\boostenergy\\",
+      }
+    ]
+  },
+  "IniFile": "mod.ini"
+}
