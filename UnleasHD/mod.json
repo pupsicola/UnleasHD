@@ -55,23 +55,15 @@
     "UIButton": [
       {
         "DisplayName": "Stock",
-        "Value": ".\\ButtonType\\Stock"
+        "Value": ""
       },
       {
-        "DisplayName": "PlayStation - UNFINISHED",
-        "Value": ".\\ButtonType\\Button_PS"
-      },
-      {
-        "DisplayName": "PlayStation 3 - UNFINISHED",
+        "DisplayName": "PlayStation 3 - WIP",
         "Value": ".\\ButtonType\\Button_PS3"
       },
       {
-        "DisplayName": "PlayStation 3 (X Homing) - UNFINISHED",
+        "DisplayName": "PlayStation 3 (X Homing) - WIP",
         "Value": ".\\ButtonType\\Button_PS3_AHoming"
-      },
-	  {
-        "DisplayName": "Xbox - UNFINISHED",
-        "Value": ".\\ButtonType\\Button_Xbox"
       },
       {
         "DisplayName": "Xbox 360",

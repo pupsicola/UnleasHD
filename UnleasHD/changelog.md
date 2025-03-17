@@ -1,3 +1,6 @@
+## UnleasHD v1.3.4
+- include directory fix
+
 ## UnleasHD v1.3.3
 - hotfix for a few unpacked assets
 
