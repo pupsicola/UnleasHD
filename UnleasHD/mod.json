@@ -15,6 +15,28 @@
 		    "MaxValue": null,
             "DefaultValue": ".\\ButtonType\\Button_Xbox360\\"
 		},
+		{
+		"Name": "IncludeDir3",
+		"DisplayName": "HUD Ring Type",
+		"Description": [
+		"Choose the style of Ring displayed in the HUD.",
+				],
+            "Type": "HUDRingType",
+		    "MinValue": null,
+		    "MaxValue": null,
+            "DefaultValue": ".\\RingType\\HD_Ring\\"
+		},
+		{
+		"Name": "IncludeDir4",
+		"DisplayName": "Life Type",
+		"Description": [
+		"Choose the style of the life icon.",
+				],
+            "Type": "LifeType",
+		    "MinValue": null,
+		    "MaxValue": null,
+            "DefaultValue": ".\\LifeType\\Unleashed-Normal\\"
+		},
          {
           "Name": "IncludeDir1",
           "DisplayName": "Boost Gauge Text",
@@ -31,13 +53,21 @@
   ],
   "Enums": {
     "UIButton": [
-	  {
+      {
+        "DisplayName": "Stock",
+        "Value": ".\\ButtonType\\Stock"
+      },
+      {
         "DisplayName": "PlayStation - UNFINISHED",
         "Value": ".\\ButtonType\\Button_PS"
       },
       {
         "DisplayName": "PlayStation 3 - UNFINISHED",
         "Value": ".\\ButtonType\\Button_PS3"
+      },
+      {
+        "DisplayName": "PlayStation 3 (X Homing) - UNFINISHED",
+        "Value": ".\\ButtonType\\Button_PS3_AHoming"
       },
 	  {
         "DisplayName": "Xbox - UNFINISHED",
@@ -48,8 +78,16 @@
         "Value": ".\\ButtonType\\Button_Xbox360"
       },
       {
+        "DisplayName": "Xbox 360 (A Homing)",
+        "Value": ".\\ButtonType\\Button_Xbox360_AHoming"
+      },
+      {
         "DisplayName": "Nintendo Switch",
         "Value": ".\\ButtonType\\Button_NX"
+      },
+      {
+        "DisplayName": "Nintendo Switch (B Homing)",
+        "Value": ".\\ButtonType\\Button_NX_AHoming"
       }
     ],
     "BoostType": [
@@ -60,6 +98,34 @@
       {
         "DisplayName": "Boost Energy",
         "Value": ".\\BoostGauge\\boostenergy\\",
+      }
+    ],
+	 "HUDRingType": [
+      {
+        "DisplayName": "HD Ring",
+        "Value": ".\\RingType\\HD_Ring\\",
+      },
+      {
+        "DisplayName": "Hedgehog Engine Ring",
+        "Value": ".\\RingType\\Hedgehog_Engine_Ring\\",
+      }
+    ],
+	 "LifeType": [
+      {
+        "DisplayName": "Unleashed",
+        "Value": ".\\LifeType\\Unleashed-Normal\\",
+      },
+      {
+        "DisplayName": "Unleashed (Gradient)",
+        "Value": ".\\LifeType\\Unleashed-Gradient\\",
+      },
+      {
+        "DisplayName": "Colors",
+        "Value": ".\\LifeType\\Colors-Normal\\",
+      },
+      {
+        "DisplayName": "Colors (Gradient)",
+        "Value": ".\\LifeType\\Colors-Gradient\\",
       }
     ]
   },
