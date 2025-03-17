@@ -44,6 +44,8 @@ add MainMod/Languages/English/+EvilSonic.ar.00
 add MainMod/Languages/English/+EvilSonic.arl
 add MainMod/Languages/English/+Loading.ar.00
 add MainMod/Languages/English/+Loading.arl
+add MainMod/Languages/English/+Sonic.ar.00
+add MainMod/Languages/English/+Sonic.arl
 add MainMod/Languages/English/+SonicActionCommon.ar.00
 add MainMod/Languages/English/+SonicActionCommon.arl
 add MainMod/Languages/English/+SystemCommonCore.ar.00

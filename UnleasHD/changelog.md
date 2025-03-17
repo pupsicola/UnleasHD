@@ -1,3 +1,6 @@
+## UnleasHD v1.3.3
+- hotfix for a few unpacked assets
+
 ## UnleasHD v1.3.2
 - improved title screen assets
 - improved loading screen assets
