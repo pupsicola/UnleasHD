@@ -4,6 +4,17 @@
       "Name": "Main",
       "DisplayName": "Options",
       "Elements": [
+	  		{
+		"Name": "IncludeDir6",
+		"DisplayName": "DLC Replacement",
+		"Description": [
+		"Replaces certain assets if DLC is installed.",
+				],
+            "Type": "DLC",
+		    "MinValue": null,
+		    "MaxValue": null,
+            "DefaultValue": ".\\DLC\\HasDLC\\"
+		},
         {
 		"Name": "IncludeDir2",
 		"DisplayName": "Button Type",
@@ -26,6 +37,28 @@
 		    "MaxValue": null,
             "DefaultValue": ".\\RingType\\HD_Ring\\"
 		},
+		 {
+          "Name": "IncludeDir1",
+          "DisplayName": "Boost Gauge Text",
+          "Description": [
+            "Choose between Ring Energy or Boost Energy text in Sonic's Boost Gauge.",
+          ],
+          "Type": "BoostType",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\BoostGauge\\ringenergy\\"
+        },
+		{
+		"Name": "IncludeDir5",
+		"DisplayName": "Boost Gauge Type",
+		"Description": [
+		"Choose the style of the Boost Gauge.",
+				],
+            "Type": "BoostGaugeType",
+		    "MinValue": null,
+		    "MaxValue": null,
+            "DefaultValue": ".\\BoostGaugeType\\Stock\\"
+		},
 		{
 		"Name": "IncludeDir4",
 		"DisplayName": "Life Type",
@@ -36,18 +69,7 @@
 		    "MinValue": null,
 		    "MaxValue": null,
             "DefaultValue": ".\\LifeType\\Unleashed-Normal\\"
-		},
-         {
-          "Name": "IncludeDir1",
-          "DisplayName": "Boost Gauge Text",
-          "Description": [
-            "Choose between Ring Energy or Boost Energy text in Sonic's Boost Gauge.",
-          ],
-          "Type": "BoostType",
-          "MinValue": null,
-          "MaxValue": null,
-          "DefaultValue": ".\\BoostGauge\\ringenergy\\"
-        }
+		}
       ]
     }
   ],
@@ -92,6 +114,16 @@
         "Value": ".\\BoostGauge\\boostenergy\\",
       }
     ],
+    "BoostGaugeType": [
+      {
+        "DisplayName": "HD Ring",
+        "Value": ".\\BoostGaugeType\\HDRing\\",
+      },
+      {
+        "DisplayName": "Stock",
+        "Value": ".\\BoostGaugeType\\Stock\\",
+      }
+    ],
 	 "HUDRingType": [
       {
         "DisplayName": "HD Ring",
@@ -118,6 +150,16 @@
       {
         "DisplayName": "Colors (Gradient)",
         "Value": ".\\LifeType\\Colors-Gradient\\",
+      }
+    ],
+	 "DLC": [
+      {
+        "DisplayName": "DLC installed",
+        "Value": ".\\DLC\\HasDLC\\",
+      },
+      {
+        "DisplayName": "No DLC",
+        "Value": ".\\DLC\\NoDLC\\",
       }
     ]
   },

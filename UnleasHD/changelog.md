@@ -1,3 +1,14 @@
+## UnleasHD v1.3.5
+- added Ranks
+- added more PS3 and Switch button assets
+- added Boost Gauge Type option
+- added option for players without DLC installed
+- added some Boss assets
+- added some missing Sonic and Werehog assets
+- added some missing World Map assets
+- added Apotos loading screen
+- fixed LV and X clipping in status asset
+
 ## UnleasHD v1.3.4
 - include directory fix
 
