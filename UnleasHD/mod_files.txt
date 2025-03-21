@@ -59,10 +59,10 @@ add MainMod/Languages/English/+Town_Common.ar.00
 add MainMod/Languages/English/+Town_Common.arl
 add MainMod/Languages/English/+Town_EggManBase_Common.ar.00
 add MainMod/Languages/English/+Town_EggManBase_Common.arl
-add MainMod/Languages/English/+EULabo_Common.ar.00
-add MainMod/Languages/English/+EULabo_Common.arl
-add MainMod/Languages/English/+EuropeanCity_Common.ar.00
-add MainMod/Languages/English/+EuropeanCity_Common.arl
+add MainMod/Languages/English/+Town_EULabo_Common.ar.00
+add MainMod/Languages/English/+Town_EULabo_Common.arl
+add MainMod/Languages/English/+Town_EuropeanCity_Common.ar.00
+add MainMod/Languages/English/+Town_EuropeanCity_Common.arl
 add MainMod/Languages/English/+Town_Labo_Common.ar.00
 add MainMod/Languages/English/+Town_Labo_Common.arl
 add MainMod/Languages/English/+Town_Mykonos_Common.ar.00
