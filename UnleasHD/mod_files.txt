@@ -2,8 +2,8 @@ add MainMod/+ActionCommon.ar.00
 add MainMod/+ActionCommon.arl
 add MainMod/+Application.ar.00
 add MainMod/+Application.arl
-add MainMod/+Autosave.ar.00
-add MainMod/+Autosave.arl
+add MainMod/+AutoSave.ar.00
+add MainMod/+AutoSave.arl
 add MainMod/+BossCommon.ar.00
 add MainMod/+BossCommon.arl
 add MainMod/+BossDarkGaia1_1Air.ar.00
