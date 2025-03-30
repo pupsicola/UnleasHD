@@ -6,7 +6,7 @@
 - adjusted mod.json for Linux users
 - fixed clipping in Sonic results render
 - fixed PS3 controller reaction panels
-- added all cutscene text assets
+- added all English cutscene text assets
 - added more town loading screens
 - added Rank shadows
 - added Tails' Tornado stage assets
