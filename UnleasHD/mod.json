@@ -13,7 +13,7 @@
             "Type": "DLC",
 		    "MinValue": null,
 		    "MaxValue": null,
-            "DefaultValue": ".\\DLC\\HasDLC\\"
+            "DefaultValue": "./DLC/HasDLC/"
 		},
         {
 		"Name": "IncludeDir2",
@@ -24,7 +24,7 @@
             "Type": "UIButton",
 		    "MinValue": null,
 		    "MaxValue": null,
-            "DefaultValue": ".\\ButtonType\\Button_Xbox360\\"
+            "DefaultValue": "./ButtonType/Button_Xbox360/"
 		},
 		{
 		"Name": "IncludeDir3",
@@ -35,7 +35,7 @@
             "Type": "HUDRingType",
 		    "MinValue": null,
 		    "MaxValue": null,
-            "DefaultValue": ".\\RingType\\HD_Ring\\"
+            "DefaultValue": "./RingType/HD_Ring/"
 		},
 		 {
           "Name": "IncludeDir1",
@@ -46,7 +46,7 @@
           "Type": "BoostType",
           "MinValue": null,
           "MaxValue": null,
-          "DefaultValue": ".\\BoostGauge\\ringenergy\\"
+          "DefaultValue": "./BoostGauge/ringenergy/"
         },
 		{
 		"Name": "IncludeDir5",
@@ -57,7 +57,7 @@
             "Type": "BoostGaugeType",
 		    "MinValue": null,
 		    "MaxValue": null,
-            "DefaultValue": ".\\BoostGaugeType\\Stock\\"
+            "DefaultValue": "./BoostGaugeType/Stock/"
 		},
 		{
 		"Name": "IncludeDir4",
@@ -68,7 +68,7 @@
             "Type": "LifeType",
 		    "MinValue": null,
 		    "MaxValue": null,
-            "DefaultValue": ".\\LifeType\\Unleashed-Normal\\"
+            "DefaultValue": "./LifeType/Unleashed-Normal/"
 		}
       ]
     }
@@ -81,85 +81,85 @@
       },
       {
         "DisplayName": "PlayStation 3 - WIP",
-        "Value": ".\\ButtonType\\Button_PS3"
+        "Value": "./ButtonType/Button_PS3"
       },
       {
         "DisplayName": "PlayStation 3 (X Homing) - WIP",
-        "Value": ".\\ButtonType\\Button_PS3_AHoming"
+        "Value": "./ButtonType/Button_PS3_AHoming"
       },
       {
         "DisplayName": "Xbox 360",
-        "Value": ".\\ButtonType\\Button_Xbox360"
+        "Value": "./ButtonType/Button_Xbox360"
       },
       {
         "DisplayName": "Xbox 360 (A Homing)",
-        "Value": ".\\ButtonType\\Button_Xbox360_AHoming"
+        "Value": "./ButtonType/Button_Xbox360_AHoming"
       },
       {
         "DisplayName": "Nintendo Switch",
-        "Value": ".\\ButtonType\\Button_NX"
+        "Value": "./ButtonType/Button_NX"
       },
       {
         "DisplayName": "Nintendo Switch (B Homing)",
-        "Value": ".\\ButtonType\\Button_NX_AHoming"
+        "Value": "./ButtonType/Button_NX_AHoming"
       }
     ],
     "BoostType": [
       {
         "DisplayName": "Ring Energy",
-        "Value": ".\\BoostGauge\\ringenergy\\",
+        "Value": "./BoostGauge/ringenergy/",
       },
       {
         "DisplayName": "Boost Energy",
-        "Value": ".\\BoostGauge\\boostenergy\\",
+        "Value": "./BoostGauge/boostenergy/",
       }
     ],
     "BoostGaugeType": [
       {
         "DisplayName": "HD Ring",
-        "Value": ".\\BoostGaugeType\\HDRing\\",
+        "Value": "./BoostGaugeType/HDRing/",
       },
       {
         "DisplayName": "Stock",
-        "Value": ".\\BoostGaugeType\\Stock\\",
+        "Value": "./BoostGaugeType/Stock/",
       }
     ],
 	 "HUDRingType": [
       {
         "DisplayName": "HD Ring",
-        "Value": ".\\RingType\\HD_Ring\\",
+        "Value": "./RingType/HD_Ring/",
       },
       {
         "DisplayName": "Hedgehog Engine Ring",
-        "Value": ".\\RingType\\Hedgehog_Engine_Ring\\",
+        "Value": "./RingType/Hedgehog_Engine_Ring/",
       }
     ],
 	 "LifeType": [
       {
         "DisplayName": "Unleashed",
-        "Value": ".\\LifeType\\Unleashed-Normal\\",
+        "Value": "./LifeType/Unleashed-Normal/",
       },
       {
         "DisplayName": "Unleashed (Gradient)",
-        "Value": ".\\LifeType\\Unleashed-Gradient\\",
+        "Value": "./LifeType/Unleashed-Gradient/",
       },
       {
         "DisplayName": "Colors",
-        "Value": ".\\LifeType\\Colors-Normal\\",
+        "Value": "./LifeType/Colors-Normal/",
       },
       {
         "DisplayName": "Colors (Gradient)",
-        "Value": ".\\LifeType\\Colors-Gradient\\",
+        "Value": "./LifeType/Colors-Gradient/",
       }
     ],
 	 "DLC": [
       {
         "DisplayName": "DLC installed",
-        "Value": ".\\DLC\\HasDLC\\",
+        "Value": "./DLC/HasDLC/",
       },
       {
         "DisplayName": "No DLC",
-        "Value": ".\\DLC\\NoDLC\\",
+        "Value": "./DLC/NoDLC/",
       }
     ]
   },

@@ -1,3 +1,22 @@
+## UnleasHD v1.3.6
+- adjusted Hud panels
+- adjusted Apotos loading screen
+- adjusted Sonic Team logo
+- adjusted Hud Moon Medal
+- adjusted mod.json for Linux users
+- fixed clipping in Sonic results render
+- fixed PS3 controller reaction panels
+- added all cutscene text assets
+- added more town loading screens
+- added Rank shadows
+- added Tails' Tornado stage assets
+- added missing pause text assets for Werehog
+- added missing main menu Skills assets
+- added more boss assets
+- added town shop text asset
+- added item icons
+- added Chaos Orb icon
+
 ## UnleasHD v1.3.5
 - added Ranks
 - added more PS3 and Switch button assets
